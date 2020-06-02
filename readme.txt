@@ -51,6 +51,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.2 ( June 02, 2020 ) =
+
+* Fixed Burger Trigger and Off Canvas components not appearing.
+
 = 1.0.1 ( June 02, 2020 ) =
 
 * Added a link to Settings under the plugin name.
