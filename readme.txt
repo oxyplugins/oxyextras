@@ -51,6 +51,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.3 ( June 03, 2020 ) =
+
+* Fixed duplicate ID on icons in the Adjacent Posts component.
+* Fixed a bug in the Slide Menu component causing it not to function properly when hidden by default.
+* Moved "Open / Close Trigger selector" setting in Off Canvas component to Primary tab for easier access.
+* Changed container elements' tags from "span" to "div" in Back to Top component's output.
+* Added a screenshot under the License Key form showing where the extras added by the plugin can be found.
+
 = 1.0.2 ( June 02, 2020 ) =
 
 * Fixed Burger Trigger and Off Canvas components not appearing.
