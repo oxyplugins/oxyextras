@@ -51,6 +51,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.4 ( June 04, 2020 ) =
+
+* Fixed - button hover issue in Back to Top.
+* Fixed - Off Canvas builder visibility causing elements to be unclickable.
+* New - Option to add custom aria label to Burger Trigger button.
+* Fixed - Prevent duplicate IDs on search icons.
+* Edit - Removed the ability to change Slide Menu type in media queries to prevent issues.
+
 = 1.0.3 ( June 03, 2020 ) =
 
 * Fixed duplicate ID on icons in the Adjacent Posts component.
