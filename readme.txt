@@ -51,6 +51,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.5 ( June 05, 2020 ) =
+
+* [Fluent Form] Added more focus styles to forms (& more style options for multi step forms).
+* [Lottie Animation] Added Top/Bottom offset controls to scroll animations.
+* [Lottie Animation] Added cursor position based animation.
+* [Lottie Animation] Added the ability for sync scrolling to any container.
+* [Lottie Animation] Added the ability to toggle loop on/off.
+* [Lottie Animation] Fixed an issue with scrolling not working with multiple animations.
+
 = 1.0.4 ( June 04, 2020 ) =
 
 * Fixed - button hover issue in Back to Top.
