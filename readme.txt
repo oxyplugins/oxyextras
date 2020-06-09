@@ -51,6 +51,17 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.6 ( June 09, 2020 ) =
+* [Fluent Form] Added dropdown for selecting form by name, instead of ID
+* [Lottie Animation] Added Click Animation Trigger with optional reverse second clicks.
+* [Lottie Animation] Easier controls with sliders for frames and speed & width / height.
+* [Back to Top] Added ability to include any element inside button to build manually.
+* [Back to Top] Added option to be visible only when scrolling up.
+* [Off Canvas] Fixed issue with iPhone 5/6 with backdrop.
+* [Off Canvas] Added auto close if any hash links clicked from inside off canvas.
+* [Adjacent Posts] Prev/next posts can now be split across two components for more flexible positioning.
+* [Alert Box] Now can add divs inside without issue.
+
 = 1.0.5 ( June 05, 2020 ) =
 
 * [Fluent Form] Added more focus styles to forms (& more style options for multi step forms).
