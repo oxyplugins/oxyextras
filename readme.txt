@@ -51,6 +51,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.7 ( June 09, 2020 ) =
+* [Fluent Form] Added a check to ensure that there will be no errors if Fluent Forms is not active.
+
 = 1.0.6 ( June 09, 2020 ) =
 * [Fluent Form] Added dropdown for selecting form by name, instead of ID
 * [Lottie Animation] Added Click Animation Trigger with optional reverse second clicks.
