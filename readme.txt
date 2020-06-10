@@ -51,6 +51,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.8 ( June 10, 2020 ) =
+* [Adjacent Posts] Fixed an issue with next post showing even if empty.
+
 = 1.0.7 ( June 09, 2020 ) =
 * [Fluent Form] Added a check to ensure that there will be no errors if Fluent Forms is not active.
 
