@@ -51,6 +51,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.9 ( June 13, 2020 ) =
+* [Fluent Form] Added support for Smart UI styling, added more style options and renamed controls to match official Fluent Forms.
+* [Fluent Form] Fixed code issue if FF not active.
+* [Reading Time] Added "Text After (Singular)" and "Text After (Plurarl)" settings for customizable After text.
+* [Off Canvas] Menu items with hash links inside Off Canvas can now open submenu by clicking entire menu item.
+* Fixed license activation/deactivation issue especially after site has been migrated to a new location.
+* A few other general code polishes.
+
 = 1.0.8 ( June 10, 2020 ) =
 * [Adjacent Posts] Fixed an issue with next post showing even if empty.
 
