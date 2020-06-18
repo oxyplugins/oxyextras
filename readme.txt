@@ -51,6 +51,16 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1 ( June 18, 2020 ) =
+* [Cart Counter] New component for displaying Woocommerce Cart Count.
+* [Mini Cart] New component for displaying Woocommerce Mini Cart.
+* [Preloader] - New component for building preloaders to hide FOUC or FOUT.
+* [Fluent Form] - Added style controls for Payment Summary and Checkable Grids.
+* [Fluent Form] - Added "General Styles" for overall form typography, button transitions.
+* [Off Canvas] - Slide from Top/Button now available.
+* [Off Canvas] - Can now be triggered from inside a modal if click trigger is also a trigger for closing the modal.
+* [Slide Menu] - Prevent issue with browsers auto-scrolling with hashlinks & sub menu items collapsing height.
+
 = 1.0.9 ( June 13, 2020 ) =
 * [Fluent Form] Added support for Smart UI styling, added more style options and renamed controls to match official Fluent Forms.
 * [Fluent Form] Fixed code issue if FF not active.
