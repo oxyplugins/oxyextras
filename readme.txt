@@ -51,6 +51,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.1 ( June 18, 2020 ) =
+* [Off Canvas] - Fixed an issue with chosen selector not triggering Off Canvas.
+* [Preloader] - Fixed slight glitchy animation on iPhones.
+
 = 1.1 ( June 18, 2020 ) =
 * [Cart Counter] New component for displaying Woocommerce Cart Count.
 * [Mini Cart] New component for displaying Woocommerce Mini Cart.
