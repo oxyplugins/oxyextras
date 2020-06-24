@@ -51,6 +51,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.2 ( June 24, 2020 ) =
+* [Alert Box] - Can now be used as a header notification bar, with 'SlideUp' close option added.
+* [Fluent Form] - Compatibility with v3.6.0.
+* [Header Search] - More control over icon positioning.
+* [Mini Cart] - Fixed scrollbar issue, more controls for positioning of inner elements.
+* [Off Canvas] - Added z-index controls for both backdrop & inner content.
+
 = 1.1.1 ( June 18, 2020 ) =
 * [Off Canvas] - Fixed an issue with chosen selector not triggering Off Canvas.
 * [Preloader] - Fixed slight glitchy animation on iPhones.
