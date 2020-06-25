@@ -51,6 +51,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.3 ( June 25, 2020 ) =
+* Added checkboxes in the plugin's settings page so that only selected components can be added to the Oxygen editor.
+
 = 1.1.2 ( June 24, 2020 ) =
 * [Alert Box] - Can now be used as a header notification bar, with 'SlideUp' close option added.
 * [Fluent Form] - Compatibility with v3.6.0.
