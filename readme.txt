@@ -51,6 +51,30 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.4 ( August 05, 2020 ) =
+* [Toggle Switch] New component for switching content or toggling classes.
+* [Content Switcher] New component allowing to switch between two elements (for use with the toggle switch).
+* [Burger Trigger] - Added 'scale' changing size of burger independent of size of the button.
+* [Cart counter] - Accessibility improvement -  Dropdown cart now can be accessed by keyboard.
+* [Counter] - Number fields now accept dynamic data.
+* [Off Canvas] - Accessibility improvement - Now able to change the focus when offcanvas opened to any selector inside.
+* [Off Canvas] - Trigger can now be from inside dynamically added content.
+* [Slide Menu] - Added site navigation schema markup option.
+* [Fluent Form] - Colour controls added for Invalid input state.
+* [Fluent Form] - Label Typography font weight issue fixed.
+* [Fluent Form] - Smart UI checkbox issue fixed on iPhone.
+* [Fluent Form] - Fixed issue with form dropdown not appearing in Oxygen if a form name contained disallowed words.
+* [Fluent Form] - Added Form ID control which accepts dynamic data.
+* [Social Share] - Added Support for Pinterest, WhatsApp & Telegram.
+* [Social Share] - Fixed issue with email share link when post titles contained certain characters.
+* [Header Search] - Fixed a W3C Validator issue.
+* [Lottie] - ACF field can now be used to get the JSON URL.
+* [Lottie] - Cursor position control can now be relative to any container element.
+* [Lottie] - Added MouseOver control (similar to hover but with frame control & reverse animation when use stops hovering.
+* [General] Small performance improvements for users on Oxygen v3.4+ (less inline JS output where possible).
+* [General] In-builder performance improvements (loading less JS).
+* [General] Added support ready for Oxygen v3.5 (new preset code).
+
 = 1.1.3 ( June 25, 2020 ) =
 * Added checkboxes in the plugin's settings page so that only selected components can be added to the Oxygen editor.
 
