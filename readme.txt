@@ -51,6 +51,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.5 ( August 06, 2020 ) =
+* [Fluent Form] - Fixed padding issue on phone/mobile field when flag is disabled.
+* [Cart Counter] - Fixed issue with cart number not updating (present only in v1.1.4).
+
 = 1.1.4 ( August 05, 2020 ) =
 * [Toggle Switch] New component for switching content or toggling classes.
 * [Content Switcher] New component allowing to switch between two elements (for use with the toggle switch).
