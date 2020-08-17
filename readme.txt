@@ -19,21 +19,22 @@ Current Components:
 2. Alert Box
 3. Back to Top
 4. Burger Trigger
-5. Copyright Year
-6. Counter
-7. Fluent Form
-8. Header Search
-9. Login Form
-10. Lottie Animation
-11. Off Canvas
-12. Post Modified Date
-13. Post Terms
-14. Reading Progress Bar
-15. Reading Time
-16. Read More / Less
-17. Reusable Block
-18. Slide Menu
-19. Social Share
+5. Carousel Builder
+6. Copyright Year
+7. Counter
+8. Fluent Form
+9. Header Search
+10. Login Form
+11. Lottie Animation
+12. Off Canvas
+13. Post Modified Date
+14. Post Terms
+15. Reading Progress Bar
+16. Reading Time
+17. Read More / Less
+18. Reusable Block
+19. Slide Menu
+20. Social Share
 
 == Installation ==
 
@@ -50,6 +51,12 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.1.6 ( August 17, 2020 ) =
+* [Carousel Builder] - New component for visually building carousels (for use with repeater component).
+* [Offcanvas] - Any elements inside the offcanvas can now make use of Oxygen's scroll animations, triggered when the offcanvas is opened (rather than on page load).
+* [Slide Menu] - Added new menu alignment controls and focus controls for the sub menu buttons.
+* [Lottie] - Added option to render animation as <canvas> instead of <svg> (to prevent rare cases of some animations flickering in Safari).
 
 = 1.1.5 ( August 06, 2020 ) =
 * [Fluent Form] - Fixed padding issue on phone/mobile field when flag is disabled.
