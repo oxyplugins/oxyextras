@@ -3,7 +3,7 @@
 Contributors: David Browne, Gagan Goraya, Sridhar Katakam
 Tags: oxygen builder
 Requires at least: 4.7
-Tested up to: 5.4.1
+Tested up to: 10.0.0
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPL3
@@ -51,6 +51,18 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.1.7 ( September 02, 2020 ) =
+* [Carousel Builder] - Added support for Easy Posts, Woo Components or using custom elements as cells.
+* [Carousel Builder] - Added the ability to turn off carousel functionality at any breakpoint.
+* [Carousel Builder] - Added Scale & transition controls for page dots.
+* [Carousel Builder] - Added support for parallax elements (using the Repeater).
+* [Lottie] - JSON now lazy loaded (can be disabled).
+* [Off Canvas] - Added 'staggered animation' option for inner elements using Oxygen's scroll animation.
+* [Preloader] - Fixed a rare issue where some elements would appear before preloader.
+* [Burger Trigger] - Fixed an issue with some unpredictable behavior when used with slide menu.
+* [Fluent Form] - Fixed hover opacity for submit button.
+* [General] - Fixed an issue with the text fields not allowing quotes.
 
 = 1.1.6 ( August 17, 2020 ) =
 * [Carousel Builder] - New component for visually building carousels (for use with repeater component).
