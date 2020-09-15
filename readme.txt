@@ -17,24 +17,31 @@ Current Components:
 
 1. Adjacent Posts
 2. Alert Box
-3. Back to Top
-4. Burger Trigger
-5. Carousel Builder
-6. Copyright Year
-7. Counter
-8. Fluent Form
-9. Header Search
-10. Login Form
-11. Lottie Animation
-12. Off Canvas
-13. Post Modified Date
-14. Post Terms
-15. Reading Progress Bar
-16. Reading Time
-17. Read More / Less
-18. Reusable Block
-19. Slide Menu
-20. Social Share
+3. Author Box
+4. Back to Top
+5. Burger Trigger
+6. Carousel Builder
+7. Cart Counter
+8. Content Switcher
+9. Copyright Year
+10. Counter
+11. Extras Login Form
+12. Fluent Form
+13. Gutenberg Reusable Block
+14. Header Search
+15. Infinite Scroller
+16. Lottie Animation
+17. Mini Cart
+18. Off Canvas
+19. Post Modified Date
+20. Post Terms
+21. Preloader
+22. Read More / Less
+23. Reading Progress Bar
+24. Reading Time
+25. Slide Menu
+26. Social Share
+27. Toggle Switch
 
 == Installation ==
 
@@ -51,6 +58,15 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.1.8 ( September 15, 2020 ) =
+* [Infinite Scroller] - New component for applying infinite scrolling to Easy Posts/ or Repeaters or Products Lists.
+* [Carousel Builder] - Added carousel "ticker" option for allowing continuous movement.
+* [OffCanvas] - Fixed an issue with hash links not scrolling after closing offcanvas.
+* [OffCanvas] - Fixed staggered animations not resetting when revealing offcanvas from the top.
+* [General] - Support for dynamic data added to multiple components.
+* [General] - Selector fields now support attribute selectors, eg .class[attr=value]
+* [General] - Components list on the plugin settings page now in alphabetical order.
 
 = 1.1.7 ( September 02, 2020 ) =
 * [Carousel Builder] - Added support for Easy Posts, Woo Components or using custom elements as cells.
