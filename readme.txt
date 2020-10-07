@@ -1,5 +1,4 @@
 === OxyExtras ===
-
 Contributors: David Browne, Gagan Goraya, Sridhar Katakam
 Tags: oxygen builder
 Requires at least: 4.7
@@ -22,26 +21,28 @@ Current Components:
 5. Burger Trigger
 6. Carousel Builder
 7. Cart Counter
-8. Content Switcher
-9. Copyright Year
-10. Counter
-11. Extras Login Form
-12. Fluent Form
-13. Gutenberg Reusable Block
-14. Header Search
-15. Infinite Scroller
-16. Lottie Animation
-17. Mini Cart
-18. Off Canvas
-19. Post Modified Date
-20. Post Terms
-21. Preloader
-22. Read More / Less
-23. Reading Progress Bar
-24. Reading Time
-25. Slide Menu
-26. Social Share
-27. Toggle Switch
+8. Circular Progress
+9. Content Switcher
+10. Copyright Year
+11. Counter
+12. Extras Login Form
+13. Fluent Form
+14. Gutenberg Reusable Block
+15. Header Search
+16. Infinite Scroller
+17. Lottie Animation
+18. Mini Cart
+19. Off Canvas
+20. Post Modified Date
+21. Post Terms
+22. Preloader
+23. Pro Media Player
+24. Read More / Less
+25. Reading Progress Bar
+26. Reading Time
+27. Slide Menu
+28. Social Share
+29. Toggle Switch
 
 == Installation ==
 
@@ -58,6 +59,19 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.1.9 ( October 07, 2020 ) =
+* [Circular Progress] - New component for adding animated circular progress bars.
+* [Pro Media Player] - New component for adding lazy loading videos & audio with customizable UI.
+* [Carousel Builder] - Added support for ACF gallery.
+* [Carousel Builder] - Added 'fullscreen' option.
+* [Carousel Builder] - Added styles for disabled navigation (when no more cells to navigate to).
+* [Counter] - Counter will now show end number instead of start number inside the Oxygen builder.
+* [Post Terms] - CPT taxonomies now included in taxonomy dropdown.
+* [Fluent Form] - Fixed issue with characters no being visible inside form dropdown.
+* [Slide Menu] - Fixed issue with arrow triggering menu link when viewing on Chrome mobile view.
+* [Adjacent Posts] - Fixed issue with 'stack posts' setting causing some CSS from components to not be included.
+* [Read More / Less] - Added gradient fade option.
 
 = 1.1.8 ( September 15, 2020 ) =
 * [Infinite Scroller] - New component for applying infinite scrolling to Easy Posts/ or Repeaters or Products Lists.
@@ -129,8 +143,8 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Preloader] - Fixed slight glitchy animation on iPhones.
 
 = 1.1 ( June 18, 2020 ) =
-* [Cart Counter] New component for displaying Woocommerce Cart Count.
-* [Mini Cart] New component for displaying Woocommerce Mini Cart.
+* [Cart Counter] - New component for displaying Woocommerce Cart Count.
+* [Mini Cart] - New component for displaying Woocommerce Mini Cart.
 * [Preloader] - New component for building preloaders to hide FOUC or FOUT.
 * [Fluent Form] - Added style controls for Payment Summary and Checkable Grids.
 * [Fluent Form] - Added "General Styles" for overall form typography, button transitions.
@@ -147,7 +161,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * A few other general code polishes.
 
 = 1.0.8 ( June 10, 2020 ) =
-* [Adjacent Posts] Fixed an issue with next post showing even if empty.
+* [Adjacent Posts] Fixed an issue with the next post showing even if empty.
 
 = 1.0.7 ( June 09, 2020 ) =
 * [Fluent Form] Added a check to ensure that there will be no errors if Fluent Forms is not active.
@@ -164,7 +178,6 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Alert Box] Now can add divs inside without issue.
 
 = 1.0.5 ( June 05, 2020 ) =
-
 * [Fluent Form] Added more focus styles to forms (& more style options for multi step forms).
 * [Lottie Animation] Added Top/Bottom offset controls to scroll animations.
 * [Lottie Animation] Added cursor position based animation.
@@ -173,29 +186,24 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Lottie Animation] Fixed an issue with scrolling not working with multiple animations.
 
 = 1.0.4 ( June 04, 2020 ) =
-
-* Fixed - button hover issue in Back to Top.
+* Fixed - Button hover issue in Back to Top.
 * Fixed - Off Canvas builder visibility causing elements to be unclickable.
 * New - Option to add custom aria label to Burger Trigger button.
 * Fixed - Prevent duplicate IDs on search icons.
 * Edit - Removed the ability to change Slide Menu type in media queries to prevent issues.
 
 = 1.0.3 ( June 03, 2020 ) =
-
 * Fixed duplicate ID on icons in the Adjacent Posts component.
 * Fixed a bug in the Slide Menu component causing it not to function properly when hidden by default.
-* Moved "Open / Close Trigger selector" setting in Off Canvas component to Primary tab for easier access.
+* Moved "Open / Close Trigger selector" setting in Off Canvas component to the Primary tab for easier access.
 * Changed container elements' tags from "span" to "div" in Back to Top component's output.
 * Added a screenshot under the License Key form showing where the extras added by the plugin can be found.
 
 = 1.0.2 ( June 02, 2020 ) =
-
 * Fixed Burger Trigger and Off Canvas components not appearing.
 
 = 1.0.1 ( June 02, 2020 ) =
-
 * Added a link to Settings under the plugin name.
 
 = 1.0.0 ( June 02, 2020 ) =
-
 * Initial release
