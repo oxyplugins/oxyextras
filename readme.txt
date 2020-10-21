@@ -36,13 +36,14 @@ Current Components:
 20. Post Modified Date
 21. Post Terms
 22. Preloader
-23. Pro Media Player
-24. Read More / Less
-25. Reading Progress Bar
-26. Reading Time
-27. Slide Menu
-28. Social Share
-29. Toggle Switch
+23. Pro Accordion
+24. Pro Media Player
+25. Read More / Less
+26. Reading Progress Bar
+27. Reading Time
+28. Slide Menu
+29. Social Share
+30. Toggle Switch
 
 == Installation ==
 
@@ -59,6 +60,19 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.0 ( October 21, 2020 ) =
+* [Pro Accordion] - New component for adding dynamic accordions.
+* [Circular Progress] - Drop Shadows & Inner circle control added for more fancy styling.
+* [Pro Media Player] - Added custom poster image option when using YouTube & Vimeo.
+* [Pro Media Player] - Added new UI layout with custom play / pause icons.
+* [Pro Media Player] - Added autoplay, autopause & more Vimeo options.
+* [Carousel Builder] - ACF gallery image now automatically the same height.
+* [Carousel Builder] - Add option to force equal height for cells.
+* [Carousel Builder] - Fixed issue when heights overriding fullscreen mode.
+* [Preloader] - Fixed pre-loader being visible if used on pages editable in Gutenberg.
+* [Author Box] - Fixed issue with website link not displaying.
+* [Offcanvas] - Fixed issue with inner-animations sometimes not resetting.
 
 = 1.1.9 ( October 07, 2020 ) =
 * [Circular Progress] - New component for adding animated circular progress bars.
