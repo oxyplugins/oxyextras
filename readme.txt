@@ -61,6 +61,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.1 ( October 26, 2020 ) =
+* [General optimization] - Less default CSS output for multiple components where possible.
+* [General optimization] - Improved reliability/usability of some components inside the builder.
+* [General optimization] - Added browser-performance setting to carousel / Off Canvas for smoother transforms.
+* [Carousel Builder]  - Added support for lazy loading images in cells when using Repeaters or Easy Posts.
+* [Pro Accordion] - Dynamic mode will now show demo content inside builder if no ACF data found for each field (only in the builder for easier styling).
+* [Pro Accordion] - Can now preview toggle animation and active style changes inside the builder by clicking the accordion header.
+* [Burger Trigger] - Burger animation will now always be previewable inside the builder.
+
 = 1.2.0 ( October 21, 2020 ) =
 * [Pro Accordion] - New component for adding dynamic accordions.
 * [Circular Progress] - Drop Shadows & Inner circle control added for more fancy styling.
