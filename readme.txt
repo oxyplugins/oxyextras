@@ -61,6 +61,26 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.2 ( November 04, 2020 ) =
+* [Carousel] - Added fade transition carousel type.
+* [Carousel] - Added support for WP media library galleries.
+* [Carousel] - Added option to remove pause-on-hover when using ticker mode.
+* [Slide Menu] - Added current menu item styles and the ability to have the current menu item visible on page load.
+* [Header Search] - Added expand form, slide reveal and accessibility controls options.
+* [Read More] - Allow expanding inside builder for easier access to elements inside.
+* [Read More] - Now dynamic. If content isn't taller than the expanded height, read more button (and gradient) will automatically not be visible.
+* [Read More] - Can now be used inside Repeaters without issue.
+* [Read More] - Added icons for the read more link, a fade transition and more control over the gradient overlay.
+* [Infinite Scroller] - Now dynamic. If not enough posts found for there to be a second page, infinite scroll won't run (and read more button automatically hidden),
+* [Alert Box] - Added click trigger and show/hide alert functions for programmatically triggering alerts.
+* [Alert Box] - Added "header notice" alert type.
+* [Adjacent Post] - Added alt tags to post images.
+* [Accordion Pro] - Added option to turn off automatic sibling accordion item closing.
+* [Pro Accordion] Fixed issue with accordion buttons being triggered too quickly when scrolling on iOS.
+* [Slide Menu] - Fixed issue with hash links not triggering the sub menu.
+* [Carousel] - Fixed issue with force equal heights being overridden by other CSS.
+* [Carousel] - Fixed issue with high z-index on dots causing them to be visible over the top of modals.
+
 = 1.2.1 ( October 26, 2020 ) =
 * [General optimization] - Less default CSS output for multiple components where possible.
 * [General optimization] - Improved reliability/usability of some components inside the builder.
