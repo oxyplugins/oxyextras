@@ -61,6 +61,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.4 ( November 11, 2020 ) =
+* [Carousel Builder] - Hotfix for making parallax work again.
+
 = 1.2.3 ( November 11, 2020 ) =
 * [Carousel Builder] - No longer need to specify cell selector when using Repeaters.
 * [Carousel Builder] - Added option to disable pause Auto Play On Hover.
