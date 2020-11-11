@@ -61,6 +61,18 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.3 ( November 11, 2020 ) =
+* [Carousel Builder] - No longer need to specify cell selector when using Repeaters.
+* [Carousel Builder] - Added option to disable pause Auto Play On Hover.
+* [Carousel Builder] - Performance improvements inside the builder. Preview mode works faster.
+* [Carousel Builder] - Added "Prioritize property" option for Galleries for choosing either dynamic height or widths.
+* [Pro Accordion] - Added support for ACF option pages and using fields from specific page IDs.
+* [Pro Media Player] - Added loop option for videos.
+* [Pro Media Player] - Fixed dynamic data button not working correctly for Audio URL field.
+* [Carousel Builder] - Fixed incorrect description text, "image URL" replaced with "image ID" for ACF galleries.
+* [Slide Menu] - Fixed issue with schema markup sometimes preventing the menu text being clickable.
+* [Read More] - Fixed gradient sometimes remaining visible when fade gradient disabled.
+
 = 1.2.2 ( November 04, 2020 ) =
 * [Carousel] - Added fade transition carousel type.
 * [Carousel] - Added support for WP media library galleries.
