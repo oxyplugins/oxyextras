@@ -38,12 +38,13 @@ Current Components:
 22. Preloader
 23. Pro Accordion
 24. Pro Media Player
-25. Read More / Less
-26. Reading Progress Bar
-27. Reading Time
-28. Slide Menu
-29. Social Share
-30. Toggle Switch
+25. Mega Menu / Dropdown
+26. Read More / Less
+27. Reading Progress Bar
+28. Reading Time
+29. Slide Menu
+30. Social Share
+31. Toggle Switch
 
 == Installation ==
 
@@ -60,6 +61,19 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.5 ( December 01, 2020 ) =
+* [Mega Menu] -  New component for adding mega menu style dropdowns in header builder.
+* [General] - Slight JS adjustments to ensure full support for jQuery 3.5.1.
+* [Fluent Form] - Added separate style controls for GDPR.
+* [Social Share] - Customisable share URL's and more control over the text in email title and body.
+* [Slide Menu] - New "mega menu list" option for displaying columned menu lists inside Mega Menus.
+* [Pro Media Player] - Removed aspect ratio setting for Vimeo (now automatic).
+* [Carousel Builder] - Added option for auto cell grouping and percentage cell grouping.
+* [Carousel Builder] - Carousel now horizontally scrollable inside builder while in edit mode.
+* [Off Canvas] - Built-in support for linking offcanvas' to ensure both offcanvas' close together.
+* [Off Canvas] - Auto-close when hashlink clicked is now optional.
+* [Pro Media Player] - Fixed PHP warning "Undefined variable: vime_player_selector".
 
 = 1.2.4 ( November 11, 2020 ) =
 * [Carousel Builder] - Hotfix for making parallax work again.
