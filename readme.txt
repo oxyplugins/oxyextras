@@ -62,6 +62,20 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.6 ( December 10, 2020 ) =
+* [Carousel Builder] - Lazy loading now available when using custom elements as cells.
+* [Mega Menu] - Dropdown alignments & positioning adjustable across screen sizes. 
+* [Mega Dropdown] - Link text can be removed if just wanting an icon.
+* [Mega Dropdown] - Link URL can be disabled for mobile menu.
+* [Mega Dropdown] - Dropdown can be set to be expanded by default when mobile menu opened.
+* [Counter / Circular Progress] - Can now be used inside repeaters.
+* [Burger Trigger] - Added control over touch events for touch screen devices.
+* [Slide Menu] - Sub menu toggles now functional inside the builder. 
+* [General] - Fixed issue with components as reusable templates where styles weren't added inside the builder.
+* [General] - In-builder performance, no JS from active components loaded inside the builder unless added on that specific page.
+* [Pro Media Player] - Fixed issue with audio playback not starting correctly in Safari
+* [Mega Menu] - Fixed issue with long menu text preventing the click to toggle the containers on mobile.
+
 = 1.2.5 ( December 01, 2020 ) =
 * [Mega Menu] -  New component for adding mega menu style dropdowns in header builder.
 * [General] - Slight JS adjustments to ensure full support for jQuery 3.5.1.
