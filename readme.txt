@@ -62,6 +62,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.7 ( December 16, 2020 ) =
+* [General] OxyExtras now respects Oxygen's Client Control. Admin menu item won't show for Edit Only roles and users. Also, only the elements specified under "Enable Elements" checkbox at Oxyen > Client Control will appear in the editor for Edit Only users.
+* [Lottie] JS now gets enqueued on init to prevent an error inside the builder when multiple lotties are used.
+
 = 1.2.6 ( December 10, 2020 ) =
 * [Carousel Builder] - Lazy loading now available when using custom elements as cells.
 * [Mega Menu] - Dropdown alignments & positioning adjustable across screen sizes. 
