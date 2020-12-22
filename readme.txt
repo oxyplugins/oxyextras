@@ -62,6 +62,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.8 ( December 22, 2020 ) =
+* [Off Canvas] - Added push type Offcanvas.
+* [Mega Menu] - Added current page link color and typography controls.
+* [Carousel Builder] - Disabling pause Autoplay on hover now supported for fade carousels.
+* [Off Canvas] - Box-shadow now hidden when Offcanvas closed.
+* [Mega Dropdown] - Issue fixed with links not clickable if no dropdown and when reveal on mouseover disabled.
+* [Read More / Less] - Fixed issue with read more link not clickable in the latest Firefox.
+* [Pro Accordion]  - Fixed error if attempting to use Dynamic items without ACF Pro already being active.
+
 = 1.2.7 ( December 16, 2020 ) =
 * [General] OxyExtras now respects Oxygen's Client Control. Admin menu item won't show for Edit Only roles and users. Also, only the elements specified under "Enable Elements" checkbox at Oxyen > Client Control will appear in the editor for Edit Only users.
 * [Lottie] JS now gets enqueued on init to prevent an error inside the builder when multiple lotties are used.
