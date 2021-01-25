@@ -30,21 +30,22 @@ Current Components:
 14. Gutenberg Reusable Block
 15. Header Search
 16. Infinite Scroller
-17. Lottie Animation
-18. Mini Cart
-19. Off Canvas
-20. Post Modified Date
-21. Post Terms
-22. Preloader
-23. Pro Accordion
-24. Pro Media Player
-25. Mega Menu / Dropdown
-26. Read More / Less
-27. Reading Progress Bar
-28. Reading Time
-29. Slide Menu
-30. Social Share
-31. Toggle Switch
+17. Lightbox
+18. Lottie Animation
+19. Mini Cart
+20. Off Canvas
+21. Post Modified Date
+22. Post Terms
+23. Preloader
+24. Pro Accordion
+25. Pro Media Player
+26. Mega Menu / Dropdown
+27. Read More / Less
+28. Reading Progress Bar
+29. Reading Time
+30. Slide Menu
+31. Social Share
+32. Toggle Switch
 
 == Installation ==
 
@@ -61,6 +62,19 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.2.9 ( January 25, 2021 ) =
+* Lightbox] - New component for visually building lightboxes, support for AJAX, iFrame, Inline, Video, Image Galleries or external links.
+* [Carousel Builder] - Added support for background-image lazy loading.
+* [Carousel Builder] - Added link option for lightbox support on galleries.
+* [Carousel Builder] - Added caption support for galleries.
+* [Carousel Builder] - Added option to retrigger AOS animations inside carousel.
+* [Circular Progress] - Now can build pie chart style progress bars (using scale & new 'butt' ending controls).
+* [Mega Menu] - Added mobile menu settings to allow for use with mobile sticky headers.
+* [Mega Menu] - Added dynamic data option to dropdown links
+* [Fluent Form] - Added "checkbox display" for preventing GDPR & T&Cs checkboxes being misaligned with other checkboxes.
+* [Read More] - Added support for being used inside closed tabs.
+* [General] - Minor UI cleanup, for more consistency across components.
 
 = 1.2.8 ( December 22, 2020 ) =
 * [Off Canvas] - Added push type Offcanvas.
@@ -86,10 +100,10 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Slide Menu] - Sub menu toggles now functional inside the builder. 
 * [General] - Fixed issue with components as reusable templates where styles weren't added inside the builder.
 * [General] - In-builder performance, no JS from active components loaded inside the builder unless added on that specific page.
-* [Pro Media Player] - Fixed issue with audio playback not starting correctly in Safari
+* [Pro Media Player] - Fixed issue with audio playback not starting correctly in Safari.
 * [Mega Menu] - Fixed issue with long menu text preventing the click to toggle the containers on mobile.
 
-= 1.2.5 ( December 01, 2020 ) =
+
 * [Mega Menu] -  New component for adding mega menu style dropdowns in header builder.
 * [General] - Slight JS adjustments to ensure full support for jQuery 3.5.1.
 * [Fluent Form] - Added separate style controls for GDPR.
@@ -113,7 +127,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Pro Accordion] - Added support for ACF option pages and using fields from specific page IDs.
 * [Pro Media Player] - Added loop option for videos.
 * [Pro Media Player] - Fixed dynamic data button not working correctly for Audio URL field.
-* [Carousel Builder] - Fixed incorrect description text, "image URL" replaced with "image ID" for ACF galleries.
+* [Carousel Builder] - Fixed incorrect description text, "image URL" replaced with "image ID" for ACF galleries
 * [Slide Menu] - Fixed issue with schema markup sometimes preventing the menu text being clickable.
 * [Read More] - Fixed gradient sometimes remaining visible when fade gradient disabled.
 
