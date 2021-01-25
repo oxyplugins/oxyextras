@@ -64,11 +64,12 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 
 = 1.2.9 ( January 25, 2021 ) =
-* Lightbox] - New component for visually building lightboxes, support for AJAX, iFrame, Inline, Video, Image Galleries or external links.
+* [Lightbox] - New component for visually building lightboxes, support for AJAX, iFrame, Inline, Video, Image Galleries or external links.
 * [Carousel Builder] - Added support for background-image lazy loading.
 * [Carousel Builder] - Added link option for lightbox support on galleries.
 * [Carousel Builder] - Added caption support for galleries.
 * [Carousel Builder] - Added option to retrigger AOS animations inside carousel.
+* [Carousel Builder] - Prev/Next will now pause autoPlay briefly before resuming to prevent flickering.
 * [Circular Progress] - Now can build pie chart style progress bars (using scale & new 'butt' ending controls).
 * [Mega Menu] - Added mobile menu settings to allow for use with mobile sticky headers.
 * [Mega Menu] - Added dynamic data option to dropdown links
