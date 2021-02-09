@@ -25,27 +25,28 @@ Current Components:
 9. Content Switcher
 10. Copyright Year
 11. Counter
-12. Extras Login Form
-13. Fluent Form
-14. Gutenberg Reusable Block
-15. Header Search
-16. Infinite Scroller
-17. Lightbox
-18. Lottie Animation
-19. Mini Cart
-20. Off Canvas
-21. Post Modified Date
-22. Post Terms
-23. Preloader
-24. Pro Accordion
-25. Pro Media Player
-26. Mega Menu / Dropdown
-27. Read More / Less
-28. Reading Progress Bar
-29. Reading Time
-30. Slide Menu
-31. Social Share
-32. Toggle Switch
+12. Dynamic Tabs
+13. Extras Login Form
+14. Fluent Form
+15. Gutenberg Reusable Block
+16. Header Search
+17. Infinite Scroller
+18. Lightbox
+19. Lottie Animation
+20. Mini Cart
+21. Off Canvas
+22. Post Modified Date
+23. Post Terms
+24. Preloader
+25. Pro Accordion
+26. Pro Media Player
+27. Mega Menu / Dropdown
+28. Read More / Less
+29. Reading Progress Bar
+30. Reading Time
+31. Slide Menu
+32. Social Share
+33. Toggle Switch
 
 == Installation ==
 
@@ -62,6 +63,25 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.0 ( Febrary 09, 2021 ) =
+* [Dynamic Tabs] - New component for adding tabs populated by repeater fields. (accordion option for mobile).
+* [Carousel Builder] - Added option to auto-calc cell width based on number of visible cells needed.
+* [Carousel Builder] - Added option to resume autoplay X milliseconds after ending user interaction.
+* [Carousel Builder] - Galleries now support image lazy loading.
+* [Carousel Builder] - Added support for syncing carousels (2-way syncing).
+* [Carousel Builder] - Added option to fade in carousel only after initializing is finished, to help prevent FOUC.
+* [OffCanvas] - Added burger syncing for animating two separate burger triggers.
+* [Infinite Scroller] - Now supports being used with Masonry / Isotope layouts (including when using filters).
+* [Header Search] - Added support for use with Polylang.
+* [Header Search] - Added option to add text to the search button.
+* [Lightbox] - Manual mode now supports elements added to page dynamically (i.e., posts in infinite scroller, WPGridbuilder etc).
+* [Mega Menu] - Added horizontal alignments & margins for more control over positioning of dropdown links.
+* [Lightbox] - More animation options (can now be previewed inside the builder).
+* [Lightbox] - Images no longer stretch inside the lightbox in the builder.
+* [Lightbox] - Fixed the issue with inline lightboxes not scrollable on some iPads.
+* [Carousel Builder] - Fixed the issue with background lazy loading needing image lazy loading also being enabled.
+* [OffCanvas] - Fixed the conflict when using "prevent scroll" with push type offcanvas.
 
 = 1.2.9 ( January 25, 2021 ) =
 * [Lightbox] - New component for visually building lightboxes, support for AJAX, iFrame, Inline, Video, Image Galleries or external links.
