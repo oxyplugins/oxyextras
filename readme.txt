@@ -64,6 +64,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.1 ( Febrary 11, 2021 ) =
+* [Dynamic Tabs] - Hash suffix now optional/customizable for creating custom hashlinks to individual tab content (page/#componentID-1-suffix, page/#componentID-2-suffix).
+* [Dynamic Tabs] - Added support for using in reusable components.
+* [Infinite Scroller] - Added "custom" option, so any containers can be used to pull in content from a next page by following any links.
+* [Infinite Scroller] - Added option to retrigger scroll animations when new content loaded.
+* [Carousel Builder] - Fixed issue "use as navigation" not syncing correctly.
+* [Lottie] - Fixed issue with scroll offsets not calculating correctly when using more than two scroll animations.
+
 = 1.3.0 ( Febrary 09, 2021 ) =
 * [Dynamic Tabs] - New component for adding tabs populated by repeater fields. (accordion option for mobile).
 * [Carousel Builder] - Added option to auto-calc cell width based on number of visible cells needed.
