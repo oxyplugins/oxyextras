@@ -30,23 +30,24 @@ Current Components:
 14. Fluent Form
 15. Gutenberg Reusable Block
 16. Header Search
-17. Infinite Scroller
-18. Lightbox
-19. Lottie Animation
-20. Mini Cart
-21. Off Canvas
-22. Post Modified Date
-23. Post Terms
-24. Preloader
-25. Pro Accordion
-26. Pro Media Player
-27. Mega Menu / Dropdown
-28. Read More / Less
-29. Reading Progress Bar
-30. Reading Time
-31. Slide Menu
-32. Social Share
-33. Toggle Switch
+17. Hotspots / Popovers
+18. Infinite Scroller
+19. Lightbox
+20. Lottie Animation
+21. Mega Menu / Dropdown
+22. Mini Cart
+23. Off Canvas
+24. Post Modified Date
+25. Post Terms
+26. Preloader
+27. Pro Accordion
+28. Pro Media Player
+29. Read More / Less
+30. Reading Progress Bar
+31. Reading Time
+32. Slide Menu
+33. Social Share
+34. Toggle Switch
 
 == Installation ==
 
@@ -63,6 +64,27 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.2 ( March 11, 2021 ) =
+* [Hotspots] - New component - Adds container for adding hotspots on images.
+* [Popovers] - New component - To create individual hotspots, popovers, or tooltips for other elements.
+* [Mega Menu] - Added support for use in custom headers (just needs header tag).
+* [Mega Menu] - Added hover/active/focus border styling to dropdown links.
+* [Social Share] - Added Xing as a new network.
+* [Fluent Forms] - Added more style settings and slight UI change for fewer clicks.
+* [Carousel Builder] - Added alignment for images inside the cells for galleries.
+* [Carousel Builder] - Added full support for using carousels inside of Repeaters.
+* [Carousel Builder] - ACF gallery data can now be from other pages or ACF options page.
+* [Carousel Builder] - Draggable can now be disabled for Fade carousels.
+* [Carousel Builder] - Added an option for the gallery images to preserve aspect ratio when in full screen mode.
+* [Carousel Builder] - Fixed an issue with WooCommerce cell widths sometimes not being visible inside the builder.
+* [Pro Accordion] - Now can be used inside Repeaters to create larger accordions using any dynamic data.
+* [Pro Media Player] - VimeJS now comes packaged inside the plugin (no external CDN).
+* [Lightbox] - Added support for being used in AJAX content.
+* [Read More] - Added support for being used in AJAX content.
+* [Dynamic Tabs] - Fixed an issue with some style changes not being immediately visible inside the builder.
+* [Off Canvas] - No longer prevents Lottie animations from animating if being used directly as the click trigger.
+* [Off Canvas] - Fixed an issue with smooth scroll (Oxygen v3.7+) not smooth for hashlinks inside Off Canvas.
 
 = 1.3.1 ( Febrary 11, 2021 ) =
 * [Dynamic Tabs] - Hash suffix now optional/customizable for creating custom hashlinks to individual tab content (page/#componentID-1-suffix, page/#componentID-2-suffix).
