@@ -65,6 +65,28 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.3 ( April 07, 2021 ) =
+* [Dynamic Tabs] - Added Meta Box support (cloneable group fields).
+* [Dynamic Tabs] - Now can use ACF option pages and ACF field from other pages.
+* [Pro Accordion] - Added Meta Box support (cloneable group fields).
+* [Carousel] - Added Meta Box support for galleries (image fields).
+* [Carousel] - Added WooCommerce product images gallery.
+* [Carousel] - Added object-fit control for changing how the images fit into the cells.
+* [Carousel] - Carousel now completely hidden on frontend if gallery is empty or no gallery found.
+* [Lightbox]- Now supports carousel builders inside "inline" lightboxes. 
+* [Fluent Form] - Added style controls for 'step' progress type.
+* [Popovers] - Added option to be open by default, added transitions when moving placement.
+* [Popovers] - More sensible defaults (fallback as "auto").
+* [Infinite Scroller] - Added "page content" option for breaking up posts/pages via page breaks (i.e., layered linking).
+* [Infinite Scroller] - Added support for using custom classes in Easy Posts (not just oxy-post).
+* [Cart Counter] - Added option to hide counter if there are no cart items.
+* [Slide Menu] - Menu can now be selected via dynamic data.
+* [OffCanvas] - Allowed for including slide menu top-level items in stagger animation.
+* [OffCanvas] - Fixed issue where preventing site scrolling wasn't working on iOS.
+* [Author Box] - Allowed no content for the name prefix.
+* [Social Share] - Fixed issue with icon background colour overlapping the button when border radius added.
+* [General] - Fixed a couple of typos, added icons and added more helper descriptions.
+
 = 1.3.2 ( March 11, 2021 ) =
 * [Hotspots] - New component - Adds container for adding hotspots on images.
 * [Popovers] - New component - To create individual hotspots, popovers, or tooltips for other elements.
