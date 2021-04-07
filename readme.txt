@@ -84,7 +84,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [OffCanvas] - Allowed for including slide menu top-level items in stagger animation.
 * [OffCanvas] - Fixed issue where preventing site scrolling wasn't working on iOS.
 * [Author Box] - Allowed no content for the name prefix.
-* [Social Share] - Fixed issue with icon background colour overlapping the button when border radius added.
+* [Social Share] - Fixed issue with icon background color overlapping the button when border radius added.
 * [General] - Fixed a couple of typos, added icons and added more helper descriptions.
 
 = 1.3.2 ( March 11, 2021 ) =
