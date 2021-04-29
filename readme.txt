@@ -47,7 +47,8 @@ Current Components:
 31. Reading Time
 32. Slide Menu
 33. Social Share
-34. Toggle Switch
+34. Table of Contents
+35. Toggle Switch
 
 == Installation ==
 
@@ -64,6 +65,23 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.3.4 ( April 29, 2021 ) =
+* [Table of Contents] - New component for adding automatic table of contents.
+* [Pro Accordion] - Added an option to close all other accordion items within a container (not just sibling).
+* [Pro Accordion] - Added support for Meta Box user fields and settings pages.
+* [Dynamic Tabs] - Added support for Meta Box user fields and settings pages.
+* [Carousel] - Added support for Meta Box user fields and settings pages.
+* [Social Share] - Added a width setting to allow for equal width buttons.
+* [Social Share] - Added 'Line' as new network.
+* [Lightbox] - Small close button now fully stylable.
+* [Login Form] - More finer controls over element styles.
+* [Pro Media Player] - Added option to load VimeJS direct from CDN.
+* [Pro Media Player] - Fixed an issue causing some external mp4s not being able to be fetched. 
+* [Pro Accordion] - Fixed counter font-family not being applied.
+* [Cart Counter] - Fixed the issue that was causing some styles not to be applied in Gutenberg.
+* [Carousel] - Fixed the issue with old version of Safari v9 (2015) not being draggable.
+* [Carousel] - Fixed the issue causing navigation arrows to behave strangely when inside Repeaters.
+* [Read More] - Fixed the issue with read more sometimes not opening immediately if contains lots of content
 
 = 1.3.3 ( April 07, 2021 ) =
 * [Dynamic Tabs] - Added Meta Box support (cloneable group fields).
