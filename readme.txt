@@ -65,6 +65,22 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.3.5 ( May 28, 2021 ) =
+* [Pro Accordion] - Added support for Metabox Term Meta &amp; formatting WYSIWYG fields.
+* [Dynamic Tabs] - Added support for Metabox Term Meta &amp; formatting WYSIWYG fields.
+* [Social Share] - Updated line network brand colors.
+* [Social Share] - Added an option for popup behavior.
+* [Preloader] - Added an option to close on user clicking.
+* [Lightbox] - Now supports using the Read More component inside lightboxes.
+* [Pro Media Player] - If inside carousel, now automatically ensures carousel always has the correct size for aspect ratli>
+* [Popovers] - More styling controls.
+* [MegaMenu] - Added current menu link typography for flyout menus.
+* [Copyright Year] - Replaced '&amp;nbsp;' with space to avoid the large visible gap.
+* [Carousel] - Fixed the issue with not continuing autoplay after scrolling on mobile.
+* [Pro Accordion] - Fixed the issue with global heading color overriding accordion header color.
+* [General] - Multiple in-builder performance improvements.
+* [General] - Out of the box support for WPGridBuilder loaded content (carousel, tabs, accordion, read more, lightbox).
+
 = 1.3.4 ( April 29, 2021 ) =
 * [Table of Contents] - New component for adding an automatic table of contents.
 * [Pro Accordion] - Added an option to close all other accordion items within a container (not just sibling).
