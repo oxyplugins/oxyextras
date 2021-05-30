@@ -65,6 +65,10 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.3.6 ( May 30, 2021 ) =
+* [Fluent Form] - Fixed the issue preventing default CSS to be visible inside the builder.
+* [General] - Fixed the issue affecting WP Grid Builder layout where no facets were found on the page.
+
 = 1.3.5 ( May 28, 2021 ) =
 * [Pro Accordion] - Added support for Metabox Term Meta &amp; formatting WYSIWYG fields.
 * [Dynamic Tabs] - Added support for Metabox Term Meta &amp; formatting WYSIWYG fields.
