@@ -76,6 +76,11 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Mega Menu] - Added current menu ancestor styles to dropdown links.
 * [Mega Menu] - Edit - removed auto-scroll back up to menu if dropdown is open.
 * [Infinite scroller] - Custom mode now allows for defining a custom container for the content.
+* [Carousel] - Added option of hash link to scroll to and select individual cells.
+* [Carousel] - Edit - now prevents accidental selection of items when arrows navigation is tapped.
+* [Post Terms] - More control over typography and display options for when no terms are found.
+* [Dynamic Tabs] - Prevent issue with tab text when multiline having different heights.
+* [Preloader] - Fixed conflict with Nitropack plugin not removing preloader.
 
 = 1.3.6 ( May 30, 2021 ) =
 * [Fluent Form] - Fixed the issue preventing default CSS to be visible inside the builder.
