@@ -24,31 +24,32 @@ Current Components:
 8. Circular Progress
 9. Content Switcher
 10. Copyright Year
-11. Counter
-12. Dynamic Tabs
-13. Extras Login Form
-14. Fluent Form
-15. Gutenberg Reusable Block
-16. Header Search
-17. Hotspots / Popovers
-18. Infinite Scroller
-19. Lightbox
-20. Lottie Animation
-21. Mega Menu / Dropdown
-22. Mini Cart
-23. Off Canvas
-24. Post Modified Date
-25. Post Terms
-26. Preloader
-27. Pro Accordion
-28. Pro Media Player
-29. Read More / Less
-30. Reading Progress Bar
-31. Reading Time
-32. Slide Menu
-33. Social Share
-34. Table of Contents
-35. Toggle Switch
+11. Countdown Timer
+12. Counter
+13. Dynamic Tabs
+14. Extras Login Form
+15. Fluent Form
+16. Gutenberg Reusable Block
+17. Header Search
+18. Hotspots / Popovers
+19. Infinite Scroller
+20. Lightbox
+21. Lottie Animation
+22. Mega Menu / Dropdown
+23. Mini Cart
+24. Off Canvas
+25. Post Modified Date
+26. Post Terms
+27. Preloader
+28. Pro Accordion
+29. Pro Media Player
+30. Read More / Less
+31. Reading Progress Bar
+32. Reading Time
+33. Slide Menu
+34. Social Share
+35. Table of Contents
+36. Toggle Switch
 
 == Installation ==
 
@@ -65,6 +66,17 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.3.7 ( July 26, 2021 ) =
+* [Countdown Timer] - New component for countdown timer, 'evergreen, recurring, fixed dates'.
+* [Header Search] - Added option to prevent scrolling when search is open.
+* [Header Search] - Added option to require input before submitting.
+* [Lightbox] - Added option to prepend the lightbox to body element instead of inside the component (useful if needing the lightbox component inside carousels & other transformed containers).
+* [Lottie] - Can now use any dynamic data as Lottie JSON URL.
+* [Back to Top] - Added option to make it keyboard focusable.
+* [Mega Menu] - Added current menu ancestor styles to dropdown links.
+* [Mega Menu] - Edit - removed auto-scroll back up to menu if dropdown is open.
+* [Infinite scroller] - Custom mode now allows for defining a custom container for the content.
+
 = 1.3.6 ( May 30, 2021 ) =
 * [Fluent Form] - Fixed the issue preventing default CSS to be visible inside the builder.
 * [General] - Fixed the issue affecting WP Grid Builder layout where no facets were found on the page.
