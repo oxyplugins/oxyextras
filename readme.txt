@@ -66,6 +66,13 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.3.8 ( Aug 17, 2021 ) =
+* [Countdown Timer] - Now accepts both YYYY/MM/DD and YYYY-MM-DD formats.
+* [Hotspots] - Prevent the SSL error being displayed in cases where the SSL certificate could not be verified on the site.
+* [Carousel Builder] - Hashlink option now will override the initial cell setting (to allow for hashlinking between pages).
+* [Dynamic Tabs] - Fixed layout issue with Meta Box clone fields.
+* [Read More] - Better support for use inside Oxygen's tabs component (no flicker).
+
 = 1.3.7 ( July 26, 2021 ) =
 * [Countdown Timer] - New component for countdown timer, 'evergreen, recurring, fixed dates'.
 * [Header Search] - Added option to prevent scrolling when search is open.
@@ -76,11 +83,6 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Mega Menu] - Added current menu ancestor styles to dropdown links.
 * [Mega Menu] - Edit - removed auto-scroll back up to menu if dropdown is open.
 * [Infinite scroller] - Custom mode now allows for defining a custom container for the content.
-* [Carousel] - Added option of hash link to scroll to and select individual cells.
-* [Carousel] - Edit - now prevents accidental selection of items when arrows navigation is tapped.
-* [Post Terms] - More control over typography and display options for when no terms are found.
-* [Dynamic Tabs] - Prevent issue with tab text when multiline having different heights.
-* [Preloader] - Fixed conflict with Nitropack plugin not removing preloader.
 
 = 1.3.6 ( May 30, 2021 ) =
 * [Fluent Form] - Fixed the issue preventing default CSS to be visible inside the builder.
