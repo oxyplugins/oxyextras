@@ -23,33 +23,34 @@ Current Components:
 7. Cart Counter
 8. Circular Progress
 9. Content Switcher
-10. Copyright Year
-11. Countdown Timer
-12. Counter
-13. Dynamic Tabs
-14. Extras Login Form
-15. Fluent Form
-16. Gutenberg Reusable Block
-17. Header Search
-18. Hotspots / Popovers
-19. Infinite Scroller
-20. Lightbox
-21. Lottie Animation
-22. Mega Menu / Dropdown
-23. Mini Cart
-24. Off Canvas
-25. Post Modified Date
-26. Post Terms
-27. Preloader
-28. Pro Accordion
-29. Pro Media Player
-30. Read More / Less
-31. Reading Progress Bar
-32. Reading Time
-33. Slide Menu
-34. Social Share
-35. Table of Contents
-36. Toggle Switch
+10. Content Timeline
+11. Copyright Year
+12. Countdown Timer
+13. Counter
+14. Dynamic Tabs
+15. Extras Login Form
+16. Fluent Form
+17. Gutenberg Reusable Block
+18. Header Search
+19. Hotspots / Popovers
+20. Infinite Scroller
+21. Lightbox
+22. Lottie Animation
+23. Mega Menu / Dropdown
+24. Mini Cart
+25. Off Canvas
+26. Post Modified Date
+27. Post Terms
+28. Preloader
+29. Pro Accordion
+30. Pro Media Player
+31. Read More / Less
+32. Reading Progress Bar
+33. Reading Time
+34. Slide Menu
+35. Social Share
+36. Table of Contents
+37. Toggle Switch
 
 == Installation ==
 
@@ -66,6 +67,29 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.3.9 ( Dec 06, 2021 ) =
+* [Content Timeline] - New component for adding animated vertical timelines.
+* [Carousel] - Added patch to fix Flickity's resizing issues with iOS 15.
+* [Carousel] - Added option to choose cell selector for repeater carousels (allows support for the case when duplicate IDs are removed from repeaters).
+* [Carousel] - Added "random order" option to all galleries.
+* [Carousel] - Added setting to disable Flickity's "imagesLoaded" option.
+* [Carousel] - Arrows/dots now both disabled automatically if there is only one slide / group of cells.
+* [Pro Media Player] - Added new control for supporting dynamic data to populate the poster images.
+* [Popovers] - Added support for use within WP Grid Builder AJAX added content.
+* [Lightbox] - Added legacy support for IE11 browser.
+* [Fluent Form] - More styling control for radio buttons that use images.
+* [Mega Menu] - Added option to disable the "click for dropdown to remain open" (hides the hashlinks also).
+* [Mega Menu] - Prevents mobile styles from being applied to desktop view if user rotates device with mobile menu still open.
+* [Read More] - Fixed issue with Galaxy A21s devices miscalculating the content height and not always expanding.
+* [Table of Contents] Prefix for auto-IDs added to content headings, 'toc-' can now be customized.
+* [Table of Contents] - Fixed heading icon links not having the the correct URL when used on nested sub pages.
+* [Mini Cart] - Added option to disable buttons and more specific style options.
+* [Cart counter] - Added option to open/close on hover as well as click.
+* [Reading Progress bars] - Added better support for when using multiple progress bars.
+* [Countdown] - Fixed couple of bugs with plural/single and countdown remaining invisible.
+* [Social Share] - Fixed link issue with Facebook icon linking other elements.
+* [Off Canvas] - Tweaked the staggered animation to prevent rare issue where user could open offcanvas before animations had time to reset.
+
 = 1.3.8 ( Aug 17, 2021 ) =
 * [Countdown Timer] - Now accepts both YYYY/MM/DD and YYYY-MM-DD formats.
 * [Hotspots] - Prevent the SSL error being displayed in cases where the SSL certificate could not be verified on the site.
