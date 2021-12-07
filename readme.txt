@@ -67,6 +67,13 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.4.0 ( Dec 08, 2021 ) =
+* [Content Timeline] - Added an option to change the scroll position for classes to be added.
+* [Content Timeline] - Added more style controls for marker.
+* [Content Timeline] - Performance improvements for the timeline scroll animation.
+* [Mega menu] - Added an option to have the mega menu close whenever hash links are clicked inside a dropdown.
+* [Carousel] - Fixed the issue with the carousel not initializing if the script is minified/combined.
+
 = 1.3.9 ( Dec 06, 2021 ) =
 * [Content Timeline] - New component for adding animated vertical timelines.
 * [Carousel] - Added patch to fix Flickity's resizing issues with iOS 15.
