@@ -32,25 +32,27 @@ Current Components:
 16. Fluent Form
 17. Gutenberg Reusable Block
 18. Header Search
-19. Hotspots / Popovers
-20. Infinite Scroller
-21. Lightbox
-22. Lottie Animation
-23. Mega Menu / Dropdown
-24. Mini Cart
-25. Off Canvas
-26. Post Modified Date
-27. Post Terms
-28. Preloader
-29. Pro Accordion
-30. Pro Media Player
-31. Read More / Less
-32. Reading Progress Bar
-33. Reading Time
-34. Slide Menu
-35. Social Share
-36. Table of Contents
-37. Toggle Switch
+19. Horizontal Slide Menu
+20. Hotspots / Popovers
+21. Infinite Scroller
+22. Interactive Cursor
+23. Lightbox
+24. Lottie Animation
+25. Mega Menu / Dropdown
+26. Mini Cart
+27. Off Canvas
+28. Post Modified Date
+29. Post Terms
+30. Preloader
+31. Pro Accordion
+32. Pro Media Player
+33. Read More / Less
+34. Reading Progress Bar
+35. Reading Time
+36. Slide Menu
+37. Social Share
+38. Table of Contents
+39. Toggle Switch
 
 == Installation ==
 
@@ -67,6 +69,38 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.4.1 ( May 06, 2022 ) =
+* [Horizontal Slide Menu] - New component for horizontal sliding menus (mmenu.js).
+* [Interactive Cursor] - New component for adding a custom cursor that can interact with other elements.
+* [General] - Added compatibility for Oxygen v4's JSON for all nestable components.
+* [General] - Added compatibility for use with Oxygen v4's new Repeater changes.
+* [General] - Multiple elements that use dynamic data now support HTML / WYSIWYG.
+* [General] - Multiple elements now have specific aria-label controls for buttons.
+* [General] - Component options now cleared from database after uninstalling.
+* [OffCanvas] - Better accessibility incl. support for "inert", will add aria-controls to click trigger etc.
+* [OffCanvas] - Will now automatically hide in the builder if not editing the template that contains it.
+* [Lightbox] - Added option to allow users to swipe/flick through grouped slides.
+* [Lightbox] - Added option to infinite loop grouped slides.
+* [Lightbox] - Added option to include thumbnail gallery if using manual links with grouped images.
+* [Lightbox] - "Returning focus" option now supports having multiple click triggers on page.
+* [Content Timeline] - Added "meta content inner" for more layout possibilities.
+* [Carousel Builder] - Now possible to use sub fields from inside Metabox group fields for image galleries.
+* [Carousel Builder] - Added the ability to enable/disable SRCSET for images in galleries.
+* [Mega Menu] - Added flyout menu specific style controls for easier styling of mobile menu.
+* [Mega Menu] - Now supports anchor link (scroll to) behaviour in menu links that have no dropdown.
+* [Countdown] - Added UTC offsets to timezone option.
+* [Table of Contents] - HTML tag can now be changed (div, nav or custom).
+* [Popovers] - Added support for use with dynamic content added by infinite scroller.
+* [Pro Accordion] - Added "inherit" as default button color to prevent iOS Safari showing the blue color as default if no link color has yet been set.
+* [Burger Trigger] - Hover opacity on burger lines now customizable.
+* [Lottie] - Lottie version bump (addresses issue where some Lottie files would flicker in Safari).
+* [Carousel Builder] - Fixed issue with arrow placement where "auto" wasn't accepted as a value.
+* [Read More] - Fixed an issue with the content sometimes not being visible inside Repeaters (in the builder).
+* [Slide Menu] - Fixed an issue causing menu ID not being fetched with dynamic data.
+* [Content Timeline] - Fix an issue where icon size control wouldn't be applied.
+* [Pro Media Player] - Fixed an issue with full screen mode not taking up the whole viewport in Safari.
+* [Lightbox] - Added a fix for AutomaticCSS users where a min-height on the body tag was being applied inside of lightbox iframe.
+
 = 1.4.0 ( Dec 08, 2021 ) =
 * [Content Timeline] - Added an option to change the scroll position for classes to be added.
 * [Content Timeline] - Added more style controls for marker.
