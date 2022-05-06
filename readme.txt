@@ -69,6 +69,9 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.4.2 ( May 07, 2022 ) =
+* [Pro Media Player] Fixed SVG controls in the media player not showing up.
+
 = 1.4.1 ( May 06, 2022 ) =
 * [Horizontal Slide Menu] - New component for horizontal sliding menus (mmenu.js).
 * [Interactive Cursor] - New component for adding a custom cursor that can interact with other elements.
@@ -97,7 +100,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Carousel Builder] - Fixed issue with arrow placement where "auto" wasn't accepted as a value.
 * [Read More] - Fixed an issue with the content sometimes not being visible inside Repeaters (in the builder).
 * [Slide Menu] - Fixed an issue causing menu ID not being fetched with dynamic data.
-* [Content Timeline] - Fix an issue where icon size control wouldn't be applied.
+* [Content Timeline] - Fixed an issue where icon size control wouldn't be applied.
 * [Pro Media Player] - Fixed an issue with full screen mode not taking up the whole viewport in Safari.
 * [Lightbox] - Added a fix for AutomaticCSS users where a min-height on the body tag was being applied inside of lightbox iframe.
 
