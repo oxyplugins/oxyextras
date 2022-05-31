@@ -69,6 +69,11 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.4.3 ( May 31, 2022 ) =
+* [General] - Small update to all icons to better match Oxygen v4 UI.
+* [Carousel Builder] - Prevent Repeater divs wrapping onto multiple lines inside the builder.
+* [Read More] - Added seperate control for "transparent" gradient color.
+
 = 1.4.2 ( May 07, 2022 ) =
 * [Pro Media Player] Fixed SVG controls in the media player not showing up.
 
