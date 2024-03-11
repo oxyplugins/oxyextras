@@ -69,6 +69,15 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.4.4 ( Mar 12, 2024 ) =
+* [Table of Contents] - Added option to use heading text as heading IDs inside content.
+* [Slide Menu] - Added option to auto close menu if hashlink menu item clicked.
+* [Content Timeline] - Now supports being inside nested repeaters.
+* [Social Share Buttons] - Changed defaults to use X icon.
+* [Carousel Builder] - Fixed issue with carousel's preview mode showing error in builder if autoplay setting has no value.
+* [Reading time] - Fixed issue where default words per minute value wasn't being used inside repeater when inside builder.
+* [General] - Security patch.
+
 = 1.4.3 ( May 31, 2022 ) =
 * [General] - Small update to all icons to better match Oxygen v4 UI.
 * [Carousel Builder] - Prevent Repeater divs wrapping onto multiple lines inside the builder.
