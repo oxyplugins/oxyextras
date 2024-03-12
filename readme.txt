@@ -69,6 +69,9 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+= 1.4.5 ( Mar 13, 2024 ) =
+* [General] - Security improvement.
+
 = 1.4.4 ( Mar 12, 2024 ) =
 * [Table of Contents] - Added option to use heading text as heading IDs inside content.
 * [Slide Menu] - Added option to auto close menu if hashlink menu item clicked.
