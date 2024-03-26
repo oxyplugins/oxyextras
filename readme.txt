@@ -69,6 +69,12 @@ Current Components:
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.4.6 ( Mar 27, 2024 ) =
+* [Pro Accordion] - Added an option to open the first accordion item when being used inside a repeater.
+* [Carousel Builder] - Sync functionality can now be used with carousels inside repeaters.
+* [Gutenberg Reusable Block] - Fixed deprecation notice.
+
 = 1.4.5 ( Mar 13, 2024 ) =
 * [General] - Security improvement.
 
@@ -76,15 +82,15 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Table of Contents] - Added option to use heading text as heading IDs inside content.
 * [Slide Menu] - Added option to auto close menu if hashlink menu item clicked.
 * [Content Timeline] - Now supports being inside nested repeaters.
-* [Social Share Buttons] - Changed defaults to use X icon.
-* [Carousel Builder] - Fixed issue with carousel's preview mode showing error in builder if autoplay setting has no value.
+* [Social Share Buttons] - Changed defaults to use the X icon.
+* [Carousel Builder] - Fixed issue with the carousel's preview mode showing an error in builder if the autoplay setting has no value.
 * [Reading time] - Fixed issue where default words per minute value wasn't being used inside repeater when inside builder.
 * [General] - Security patch.
 
 = 1.4.3 ( May 31, 2022 ) =
 * [General] - Small update to all icons to better match Oxygen v4 UI.
 * [Carousel Builder] - Prevent Repeater divs wrapping onto multiple lines inside the builder.
-* [Read More] - Added seperate control for "transparent" gradient color.
+* [Read More] - Added separate control for "transparent" gradient color.
 
 = 1.4.2 ( May 07, 2022 ) =
 * [Pro Media Player] Fixed SVG controls in the media player not showing up.
