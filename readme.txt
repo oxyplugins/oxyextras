@@ -71,6 +71,27 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.9 ( Mar 02, 2026 ) =
+* [General] - Fix "WP_Scripts::add called incorrectly"'" notice inside builder (WP 6.9.1+).
+* [General] - Better compatibility with Adminimize plugin (OxyExtras settings always hidden now if Oxygen settings set to hidden).
+* [Header Search] - Input screen reader label now customizable and with an optional submit button.
+* [Carousel Builder] - Fixed the issue where scrolling in iOS could cause slider flickering due to Flickity resizing.
+* [Alert Box] - Aria label for default close button now customizable.
+* [Pro Media Player] - Fixed the issue where focus could move inside iframe when custom controls enabled.
+* [Read More] - Fixed the issue where read more wouldn't open if interpolate-size CSS rule used on page.
+* [Social Share] - Switched to modern "x.com/intent/post" share URL for X.
+
+= 1.4.8 ( Feb 03, 2026 ) =
+* [Licensing] - Added a button to 'revalidate license' after site migration without needing to re-enter the license key.
+* [Licensing] - Now supports defining license key in wp-config.php file OXYEXTRAS_LICENSE_KEY constant.
+* [Carousel] - Improved keyboard navigation by preventing focus on links and buttons in hidden slides (enabled by default).
+* [Lottie] - Add support for start / end / speed to be populated via dynamic data.
+* [Mega Menu] - Added an option to add aria labels to menu links (if not adding any link text).
+* [Pro Accordion] - Fixed the issue where aria-controls ID could be incorrect if nested inside of a Repeater.
+* [Counter] - Fix the issue where counter smart easing wouldn't apply and added delay option.
+* [Read More] - Fixed the issue causing incorrect aria-expanded attribute on content.
+* [General] - Fix 'Undefined array key' PHP log warnings if empty settings on elements when opening builder.
+
 = 1.4.7 ( May 23, 2024 ) =
 * [Copy to Clipboard] - New element for enabling users to copy text or dynamic data.
 * [Social Share] - Added 'print' option for enabling users to print the page (or a specific area of the page).
@@ -230,7 +251,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Carousel] - Added WooCommerce product images gallery.
 * [Carousel] - Added object-fit control for changing how the images fit into the cells.
 * [Carousel] - Carousel now completely hidden on frontend if gallery is empty or no gallery found.
-* [Lightbox]- Now supports carousel builders inside "inline" lightboxes. 
+* [Lightbox]- Now supports carousel builders inside "inline" lightboxes.
 * [Fluent Form] - Added style controls for 'step' progress type.
 * [Popovers] - Added option to be open by default, added transitions when moving placement.
 * [Popovers] - More sensible defaults (fallback as "auto").
@@ -321,13 +342,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 = 1.2.6 ( December 10, 2020 ) =
 * [Carousel Builder] - Lazy loading now available when using custom elements as cells.
-* [Mega Menu] - Dropdown alignments & positioning adjustable across screen sizes. 
+* [Mega Menu] - Dropdown alignments & positioning adjustable across screen sizes.
 * [Mega Dropdown] - Link text can be removed if just wanting an icon.
 * [Mega Dropdown] - Link URL can be disabled for mobile menu.
 * [Mega Dropdown] - Dropdown can be set to be expanded by default when mobile menu opened.
 * [Counter / Circular Progress] - Can now be used inside repeaters.
 * [Burger Trigger] - Added control over touch events for touch screen devices.
-* [Slide Menu] - Sub menu toggles now functional inside the builder. 
+* [Slide Menu] - Sub menu toggles now functional inside the builder.
 * [General] - Fixed issue with components as reusable templates where styles weren't added inside the builder.
 * [General] - In-builder performance, no JS from active components loaded inside the builder unless added on that specific page.
 * [Pro Media Player] - Fixed issue with audio playback not starting correctly in Safari.
