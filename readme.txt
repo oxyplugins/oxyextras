@@ -71,6 +71,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.0 ( Mar 20, 2026 ) =
+* [Read More] - Fixed iOS issue which could cause content to collapse when scrolling.
+
 = 1.4.9 ( Mar 02, 2026 ) =
 * [General] - Fix "WP_Scripts::add called incorrectly"'" notice inside builder (WP 6.9.1+).
 * [General] - Better compatibility with Adminimize plugin (OxyExtras settings always hidden now if Oxygen settings set to hidden).
