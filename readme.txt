@@ -71,11 +71,20 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.1 ( Jul 29, 2026 ) =
+* [General] - All dynamic data fields now accept static text alongside dynamic data shortcodes.
+* [Lightbox] - Added control over close behavior on mobile for images and galleries.
+* [Countdown] - Added ability to add delay and display message before redirect.
+* [General] - Updated JS libraries (InfiniteScroll, Mmenu, Luxon, Tippy and Popper) to their latest versions.
+* [General] - Inert and IntersectionObserver JS polyfils removed (now widely supported in browsers).
+* [Interactive Cursor] - Fixed cursor not reacting to AJAX-loaded elements.
+* [General] - Fixed PHP log warnings.
+
 = 1.5.0 ( Mar 20, 2026 ) =
 * [Read More] - Fixed iOS issue which could cause content to collapse when scrolling.
 
 = 1.4.9 ( Mar 02, 2026 ) =
-* [General] - Fix "WP_Scripts::add called incorrectly"'" notice inside builder (WP 6.9.1+).
+* [General] - Fix "WP_Scripts::add called incorrectly" notice inside builder (WP 6.9.1+).
 * [General] - Better compatibility with Adminimize plugin (OxyExtras settings always hidden now if Oxygen settings set to hidden).
 * [Header Search] - Input screen reader label now customizable and with an optional submit button.
 * [Carousel Builder] - Fixed the issue where scrolling in iOS could cause slider flickering due to Flickity resizing.
