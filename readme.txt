@@ -71,6 +71,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.2 ( Jul 30, 2026 ) =
+* [Header Search] - Fixed the issue with appending empty post_type parameter in URL.
+
 = 1.5.1 ( Jul 29, 2026 ) =
 * [General] - All dynamic data fields now accept static text alongside dynamic data shortcodes.
 * [Lightbox] - Added control over close behavior on mobile for images and galleries.
