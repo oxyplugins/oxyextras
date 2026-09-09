@@ -71,6 +71,17 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.3 ( Sep 09, 2026 ) =
+* [Licensing/Updates] - Upgrades internal release system with additional validation checks for update packages.
+* [Read More] - Added option to render the trigger as a button instead of a link, and open/close text now accepts dynamic data.
+* [General] - All components now re-initialize on content loaded via AJAX (WP Grid Builder).
+* [Counter] - Updated CountUp to latest versions.
+* [Copy to Clipboard] - Label and tooltip text (default and copied) now accept dynamic data
+* [General] - Hardened sanitization on element configs
+* [General] - Every element now exposes a doExtras... JavaScript function for easier integration with other 3rd party AJAX filter plugins.
+* [Fluent Form] - Fixes 'No Fluent Forms Found' text visible on front end if form no longer exists.
+* [Carousel] - Fixes carousels inside lightbox not resizing after the first one opened.
+
 = 1.5.2 ( Jul 30, 2026 ) =
 * [Header Search] - Fixed the issue with appending empty post_type parameter in URL.
 
