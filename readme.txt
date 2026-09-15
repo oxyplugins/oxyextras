@@ -71,6 +71,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.4 ( Sep 15, 2026 ) =
+* [Infinite Scroller] - Fixed issue where infinite scroller wasn't initializing on repeater.
+* [Lightbox] - Better handling of grouping when lightbox inside content added via load more facets.
+
 = 1.5.3 ( Sep 09, 2026 ) =
 * [Licensing/Updates] - Upgrades internal release system with additional validation checks for update packages.
 * [Read More] - Added option to render the trigger as a button instead of a link, and open/close text now accepts dynamic data.
